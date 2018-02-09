@@ -1,0 +1,50 @@
+>> f=@(x) x.^2-1
+
+f = 
+
+    @(x)x.^2-1
+
+>> x=[-5:.1:5];
+>> y=f(x);
+>> plot(x,y)
+
+ 
+>> sumatoria(3)
+
+suma =
+
+     0
+
+
+suma =
+
+     6
+
+
+ 
+>> impares(5)
+
+suma =
+
+     0
+
+
+suma =
+
+     9
+
+
+producto =
+
+     1
+
+>> factorial(7)
+
+producto =
+
+     1
+
+
+producto =
+
+        5040
