@@ -1,0 +1,17 @@
+%Programa del metodo de Newton
+function x=newton3(f,f1,x0,n)
+ %x=valor salidad
+ %Valoresde entrada: 
+ %f=funcion, f1=derivada,x0=valor inicial, n=numero de iteraciones
+ x=x0;
+ for i=1:n
+     iter(i)=i; %Imprime el valor que toma, vector 1xn
+     aprox(i)=x; %valores que toma x 
+     resid(i)=abs(f(x)); %residuos en valor absoluto
+     x=x-(f(x)/f1(x)); %x=valor actualizado, x-(f(x)/f1(x))= aproximacion 
+     
+ end
+ 
+[iter', aprox', resid'] %TABLA, apostrofe para trasponer el vector
+
+end
