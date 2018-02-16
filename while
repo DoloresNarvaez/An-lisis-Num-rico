@@ -8,3 +8,33 @@ while suma<20
     suma=suma+i; %valor actualizado
     i=i+1; %contador, para que la suma se incremente
 end
+
+
+
+%Programa: uso de while
+
+mult=1;
+i=1;
+
+while mult<50
+    
+    mult=mult*i; %valor actualizado
+    i=i+1; %contador, para que la suma se incremente
+    mult %impresion en la ventana de comandos
+    
+end
+
+
+***************************%Programa: uso de while
+
+suma=0;
+i=1;
+
+while suma<10
+    
+    suma=suma+i; %valor actualizado
+    i=i+1; %contador, para que la suma se incremente
+    
+    rem(a,2)==0
+    
+end
