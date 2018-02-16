@@ -1,0 +1,10 @@
+%Programa: uso de while
+
+suma=0;
+i=1;
+
+while suma<20
+    suma %imprime los valores en la ventana de comandos
+    suma=suma+i; %valor actualizado
+    i=i+1; %contador, para que la suma se incremente
+end
