@@ -28,6 +28,17 @@ disp('La matriz B es:')
 B
 
 
+%disp('La matriz C es:')
+%C=A+B;
+%C
+
+%%%%FORMA MAS COMPLICADA DE LA VIDA
+
 disp('La matriz C es:')
-C=A+B;
+for i=1:n
+    for j=1:n
+        C(i,j)=A(i,j)+B(i,j);
+    end
+end
+
 C
